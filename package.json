@@ -1,0 +1,17 @@
+{
+  "name": "Dragon",
+  "version": "0.0.0",
+  "dependencies": {
+    "log4js": "latest",
+    "mongoose": "latest",
+    "ejs": "latest",
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-react":"latest",
+    "gulp-autoprefixer":"latest",
+    "gulp-minify-css":"latest",
+    "gulp-rename":"latest",
+    "gulp-notify":"latest"
+  }
+}
