@@ -1,4 +1,4 @@
 module.exports = {
     'environment': 'dev',
-    'debug':true
+    'debug':false
 }
