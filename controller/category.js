@@ -6,11 +6,16 @@ class category extends response{
 
 	constructor(_requeset){
 		super(_requeset);
-		this.model = new model();
 	}
 
-	list(){
-		var list = this.model.find();
-		return this.json(list);
+	get_list(){
+		return new Promise(function(resolve, reject) {
+			var model_category = new model();
+			model_category.find({}).then(function(data) {
+				resolve(category.json(data));
+			}).catch(reject);
+		});
 	}
 }
+
+module.exports = category;
