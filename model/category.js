@@ -9,7 +9,7 @@ class category extends mongodb {
 	constructor() {
     	super(model);
 	}
-	
+		
 }
 
 module.exports = category;

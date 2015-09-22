@@ -1,4 +1,5 @@
-module.exports = {
+var application = module.exports = {
     'environment': 'dev',
-    'debug':false
+    'debug':false,
+    'trace':true,
 }

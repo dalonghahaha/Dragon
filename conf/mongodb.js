@@ -23,13 +23,13 @@ var mongodb = module.exports = {
         //数据库名
         'database': 'blog111'
     },
-    get_conf: function(environment = 'dev') {
+    get_conf: function(environment) {
         var conf_info = "mongodb://";
-        conf_info += this.environment.user;
-        conf_info += ":" + this.environment.password;
-        conf_info += "@" + this.environment.host;
-        conf_info += ":" + this.environment.port;
-        conf_info += "/" + this.environment.database;
+        conf_info += mongodb[environment]['user'];
+        conf_info += ":" + mongodb[environment]['password'];
+        conf_info += "@" + mongodb[environment]['host'];
+        conf_info += ":" + mongodb[environment]['port'];
+        conf_info += "/" + mongodb[environment]['database'];
         return conf_info;
     }
 }
