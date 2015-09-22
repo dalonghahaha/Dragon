@@ -1,22 +1,11 @@
-"use strict"
-var response=require('../lib/response');
-
-class category extends response{
-
-	constructor(_requeset){
-		super(_requeset);
-	}
-
-	index(){
-		return new Promise(function(resolve, reject) {
-			try{
-				resolve(response.echo('hello world!'));
-			}
-			catch(err){
-				reject(err);
-			}
-		});
-	}
+var index = module.exports = {
+    index: function(dragon) {
+        return new Promise(function(resolve, reject) {
+            var model = require('../model/category');
+            var orm_category = new model();
+            orm_category.find({}).then(function(data) {
+                resolve(dragon.json(data));
+            });
+        });
+    }
 }
-
-module.exports = category;
