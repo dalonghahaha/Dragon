@@ -20,7 +20,8 @@
     "log4js": "latest",
     "formidable": "latest",
     "mongoose": "latest",
-    "ejs": "latest"
+    "ejs": "latest",
+    "commander":"latest"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
