@@ -1,4 +1,5 @@
 gulpfile.js
+conf/application.js
 assets
 controller
 model
