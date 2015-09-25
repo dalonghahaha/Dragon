@@ -7,9 +7,9 @@ program.version('0.0.1').usage('[command] [option]')
 program
 	.command('init')
 	.description('init application workspace')
-	.option('--with-demo', 'include demo code')
+	.option('--demo', 'include demo code')
 	.action(function(options){
-		console.log(options);
+		cli.init(options);
 	});
 
 

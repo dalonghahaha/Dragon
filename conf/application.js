@@ -18,6 +18,9 @@ var application = module.exports = {
     //模型根目录
     'model_root': 'model',
 
+    //视图根目录
+    'views_root': 'views',
+
     //模型描述根目录
     'schema_root': 'schema',
 
