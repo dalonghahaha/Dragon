@@ -1,26 +1,26 @@
 var mongodb = module.exports = {
     'dev': {
         //主机名
-        'host': '114.215.106.133',
+        'host': '127.0.0.1',
         //端口
         'port': 27017,
         //用户名
-        'user': 'dalong',
+        'user': 'admin',
         //密码
-        'password': '200111',
+        'password': '123456',
         //数据库名
-        'database': 'blog'
+        'database': 'local'
     },
     'product': {
         //主机名
-        'host': '114.215.106.133',
+        'host': '127.0.0.1',
         //端口
         'port': 27017,
         //用户名
-        'user': 'dalong',
+        'user': 'admin',
         //密码
-        'password': '200111',
+        'password': '123456',
         //数据库名
-        'database': 'blog111'
+        'database': 'mongo'
     }
 }

@@ -6,4 +6,5 @@ model
 schema
 views
 logs
+application
 node_modules
