@@ -14,13 +14,11 @@ program
 
 
 program
-	.command('build [category] [name]')
-	.description('build code')
-    .option('--mysql', 'build code for mysql driver')
-    .action(function(category, name ,options){
-	    console.log(category);
-	    console.log(name);
-	    console.log(options.mysql);
+	.command('build [name]')
+	.description('build model code')
+    .option('--mysql', 'build model code for mysql driver')
+    .action(function(name ,options){
+	    cli.model(name,options);
 	});
   	
 

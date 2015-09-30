@@ -35,6 +35,9 @@ var application = module.exports = {
     //日志配置文件位置
     'logs_configuration': path.join(root,'conf','log'),
 
+    //Mongodb配置文件位置
+    'mongodb_configuration': path.join(root,'conf','mongodb'),
+
     //调试开关
     'debug': false,
     
