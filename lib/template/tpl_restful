@@ -1,0 +1,19 @@
+var {controller_name} = module.exports = {
+
+    get: function(dragon) {
+        return dragon.json({});
+    },
+
+    post: function(dragon) {
+        return dragon.json({});
+    },
+
+    put:function(dragon){
+        return dragon.json({});
+    },
+
+    delete: function(dragon) {
+        return dragon.json({});
+    }
+    
+}

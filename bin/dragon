@@ -12,6 +12,12 @@ program
 		cli.init(dir,options);
 	});
 
+program
+	.command('restful [name]')
+	.description('build restful style controller code')
+    .action(function(name){
+	    cli.restful(name);
+	});
 
 program
 	.command('build [name]')
