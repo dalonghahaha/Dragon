@@ -20,6 +20,7 @@
         "log4js": "latest",
         "formidable": "latest",
         "mongoose": "latest",
+        "mongodb": "latest",
         "ejs": "latest",
         "commander": "latest"
     },
