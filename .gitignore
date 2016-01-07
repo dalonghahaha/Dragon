@@ -1,10 +1,3 @@
 gulpfile.js
-conf/application.js
-assets
-controller
-model
-schema
-views
-logs
 application
 node_modules
