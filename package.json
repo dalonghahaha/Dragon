@@ -9,29 +9,16 @@
     "version": "1.0.0",
     "author": "Deng Jia Long <dalonghahaha@163.com> (http://dalong.me)",
     "license": "MIT",
-    "scripts": {
-        "start": "node ./bin/www"
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/dalonghahaha/Dragon.git"
     },
     "dependencies": {
+        "commander": "latest",      
         "log4js": "latest",
         "formidable": "latest",
-        "mongoose": "latest",
         "mongodb": "latest",
-        "ejs": "latest",
-        "commander": "latest"
-    },
-    "devDependencies": {
-        "gulp": "^3.9.0",
-        "gulp-react": "latest",
-        "gulp-autoprefixer": "latest",
-        "gulp-minify-css": "latest",
-        "gulp-rename": "latest",
-        "gulp-notify": "latest",
-        "gulp-jshint": "latest"
+        "ejs": "latest"
     },
     "engines": {
         "node": ">=4.0.0"
