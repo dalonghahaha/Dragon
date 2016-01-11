@@ -1,4 +1,0 @@
-var server = require('../lib/server');
-var config = require('./conf/application');
-var service = new server(config);
-service.run();
