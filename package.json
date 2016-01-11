@@ -13,8 +13,7 @@
         "type": "git",
         "url": "https://github.com/dalonghahaha/Dragon.git"
     },
-    "dependencies": {
-        "commander": "latest",      
+    "dependencies": {    
         "log4js": "latest",
         "formidable": "latest",
         "mongodb": "latest",
