@@ -17,6 +17,7 @@
         "log4js": "latest",
         "formidable": "latest",
         "mongodb": "latest",
+        "mysql": "latest",
         "ejs": "latest"
     },
     "engines": {
