@@ -13,11 +13,11 @@
         "type": "git",
         "url": "https://github.com/dalonghahaha/Dragon.git"
     },
-    "dependencies": {    
-        "log4js": "latest",
+    "dependencies": {
         "formidable": "latest",
         "mongodb": "latest",
         "mysql": "latest",
+        "generic-pool": "latest",
         "ejs": "latest"
     },
     "engines": {
