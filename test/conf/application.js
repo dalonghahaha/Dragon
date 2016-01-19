@@ -15,7 +15,7 @@ var application = module.exports = {
     'root': root,
 
     //日志文件根目录
-    'logs_root': path.join(root,'logs'),
+    'logs_root': path.join(path.dirname(root),'logs'),
 
     //静态资源根目录
     'assets_root': path.join(root,'assets'),
