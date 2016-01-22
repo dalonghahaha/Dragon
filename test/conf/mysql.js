@@ -9,6 +9,6 @@ module.exports = {
         //密码
         'password': '200111',
         //数据库名
-        'database': 'blog'
+        'database': 'football'
     }
 }

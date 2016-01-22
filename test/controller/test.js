@@ -5,7 +5,8 @@ module.exports = {
     },
 
     params:function(dragon){
-        return dragon.json(dragon.params);
+    	console.log(dragon.params);
+        return dragon.echo('成功');
     },
 
     request:function(dragon){
