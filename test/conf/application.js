@@ -2,6 +2,8 @@ var path = require('path');
 var root = path.dirname(__dirname);
 var application = module.exports = {
 
+    'debug':true,
+
     //端口号
     'port':3000,
 
@@ -35,12 +37,15 @@ var application = module.exports = {
     //mysql配置文件位置
     'mysql_configuration': path.join(root,'conf','mysql'),
 
-    //mysql配置文件位置
+    //memcached配置文件位置
     'memcached_configuration': path.join(root,'conf','memcached'),
 
-    //mysql配置文件位置
+    //redis配置文件位置
     'redis_configuration': path.join(root,'conf','redis'),
 
-    //调试开关
-    'debug': true,
+    //是否启用缓存
+    'cached':true,
+
+    //缓存类别
+    'cache_type':'memcached'
 }
