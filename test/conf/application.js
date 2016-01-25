@@ -32,8 +32,14 @@ var application = module.exports = {
     //mongodb配置文件位置
     'mongodb_configuration': path.join(root,'conf','mongodb'),
 
-    //mongodb配置文件位置
+    //mysql配置文件位置
     'mysql_configuration': path.join(root,'conf','mysql'),
+
+    //mysql配置文件位置
+    'memcached_configuration': path.join(root,'conf','memcached'),
+
+    //mysql配置文件位置
+    'redis_configuration': path.join(root,'conf','redis'),
 
     //调试开关
     'debug': true,

@@ -18,6 +18,8 @@
         "formidable": "latest",
         "mongodb": "latest",
         "mysql": "latest",
+        "memcached": "latest",
+        "redis": "latest",
         "ejs": "latest"
     },
     "engines": {

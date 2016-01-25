@@ -10,4 +10,6 @@ Drangon.Crypt = require('./lib/tool/crypt');
 
 Drangon.Async = require('./lib/tool/async');
 
+Drangon.Cache = require('./lib/tool/cache');
+
 module.exports = Drangon;
